@@ -1,11 +1,11 @@
-def pythagorean(arr):
+def pythagorean(ar):
     
-    arr.sort()
+    ar.sort()
     
    
-    a = arr[0]
-    b = arr[1]
-    c = arr[2]
+    a = ar[0]
+    b = ar[1]
+    c = ar[2]
     
     if a**2 + b**2 == c**2:
         return True
