@@ -1,8 +1,8 @@
 def pythagorean(arr):
-    # Сортуємо масив
+    
     arr.sort()
     
-    # Перевіряємо, чи задовольняє відома формула піфагора
+   
     a = arr[0]
     b = arr[1]
     c = arr[2]
@@ -12,7 +12,7 @@ def pythagorean(arr):
     else:
         return False
 
-# Проводимо тести
+
 test1 = [5, 3, 4]
 test2 = [6, 8, 10]
 test3 = [100, 3, 65]
